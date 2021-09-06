@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Erki Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header class="fixed w-full z-10">
+            <nav class="border-b">
+                <div
+                    class="
+                        flex
+                        w-4/5
+                        justify-between
+                        m-auto
+                        text-xl
+                        py-5
+                        font-semibold
+                        bg-white
+                    "
+                >
+                    <a href="#home" class="text-xl">Erki</a>
+                    <ul class="flex w-3/5 justify-around ">
+                        <li>
+                            <a href="#home" class="hover:text-green-400">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="hover:text-green-400">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="hover:text-green-400">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="hover:text-green-400"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#contact" class="hover:text-green-400"
+                                >Contact Me</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section style="height: 100vh" id="home">
+                <div class="grid w-4/5 h-full m-auto grid-cols-12 pt-20">
+                    <div class="col-span-2 flex items-center">
+                        <ul class="space-y-8">
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/erkikadhafi/"
+                                    class="
+                                        text-2xl text-green-400
+                                        hover:text-green-600
+                                        transition
+                                        duration-150
+                                    "
+                                    ><i class="fab fa-linkedin-in"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/ErkiKadhafi"
+                                    class="
+                                        text-2xl text-green-400
+                                        hover:text-green-600
+                                        transition
+                                        duration-150
+                                        focus:ring
+                                        ring-green-300
+                                    "
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="
+                            col-span-5
+                            flex flex-col
+                            align-center
+                            justify-center
+                            space-y-8
+                        "
+                    >
+                        <h1 class="text-5xl font-bold text-gray-800">
+                            Hi, I'am Erki
+                        </h1>
+                        <h3 class="text-2xl font-semibold text-gray-600">
+                            Software Developer
+                        </h3>
+                        <h4 class="text-xl text-gray-500">
+                            I am a software developer with robust
+                            problem-solving skills with high persistance in
+                            achieving the best result. I love new chalenges and
+                            passionate about tech stuff.
+                        </h4>
+                        <div>
+                            <button
+                                class="
+                                    inline-flex
+                                    items-center
+                                    px-4
+                                    py-4
+                                    bg-green-400
+                                    border border-transparent
+                                    rounded-md
+                                    text-md text-white
+                                    font-bold
+                                    capitalise
+                                    tracking-widest
+                                    hover:bg-green-700
+                                    active:bg-green-900
+                                    focus:outline-none
+                                    focus:border-green-700
+                                    focus:ring
+                                    ring-green-300
+                                    disabled:opacity-25
+                                    transition
+                                    ease-in-out
+                                    duration-150
+                                "
+                            >
+                                Contact Me
+                                <i class="fas fa-greater-than ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-span-5 ">
+                        <div class="relative">
+                            <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill="#34D399"
+                                    d="M65.7,-17.9C73.4,2.5,60,33.3,38.2,48C16.4,62.8,-13.6,61.5,-32.7,47.1C-51.7,32.8,-59.7,5.4,-52.4,-14.4C-45.1,-34.2,-22.6,-46.3,3.2,-47.4C29,-48.4,57.9,-38.3,65.7,-17.9Z"
+                                    transform="translate(100 100)"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section style="height: 100vh" id="about">
+                <div class="w-4/5 h-full m-auto">
+                    <div class="flex flex-col items-center space-y-3 pt-20">
+                        <h1 class="text-5xl font-semibold text-gray-800">
+                            About Me
+                        </h1>
+                        <h3 class="text-xl font-semibold text-gray-400">
+                            My Introduction
+                        </h3>
+                    </div>
+                    <div class="grid h-5/6 grid-cols-12">
+                        <div
+                            class="col-span-6 flex justify-center items-center"
+                        >
+                            <div
+                                class="bg-green-400 w-80 h-60 rounded-xl transform -translate-y-10"
+                            >
+                            <img src="./erki2.jpg" alt="" class="rounded-xl" style="object-fit: cover;" >
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                col-span-6
+                                flex flex-col
+                                justify-center
+                                space-y-8
+                            "
+                        >
+                            <div>
+                                <p class="text-xl w-4/5">
+                                    Web developer, with extensive knowledge, working in web
+                                    technologies and Ui / Ux design, delivering
+                                    quality work.
+                                </p>
+                            </div>
+                            <div class="flex">
+                                <div class="text-center px-5 py-2">
+                                    <div class="text-2xl font-bold mb-2">
+                                        02+
+                                    </div>
+                                    <div class="text-lg text-gray-500">
+                                        Years <br />
+                                        experience
+                                    </div>
+                                </div>
+                                <div class="text-center px-5 py-2">
+                                    <div class="text-2xl font-bold mb-2">
+                                        10+
+                                    </div>
+                                    <div class="text-lg text-gray-500">
+                                        Completed <br />projects
+                                    </div>
+                                </div>
+                                <div class="text-center px-5 py-2">
+                                    <div class="text-2xl font-bold mb-2">
+                                        05+
+                                    </div>
+                                    <div class="text-lg text-gray-500">
+                                        Companies<br /> worked
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="
+                                        inline-flex
+                                        items-center
+                                        px-4
+                                        py-5
+                                        bg-green-400
+                                        border border-transparent
+                                        rounded-md
+                                        text-md text-white
+                                        font-bold
+                                        capitalise
+                                        tracking-widest
+                                        hover:bg-green-700
+                                        active:bg-green-900
+                                        focus:outline-none
+                                        focus:border-green-700
+                                        focus:ring
+                                        ring-green-300
+                                        disabled:opacity-25
+                                        transition
+                                        ease-in-out
+                                        duration-150
+                                    "
+                                >
+                                    <a href="https://drive.google.com/file/d/1-xjpA844OCr7sxyuUBijtHM_fwVMVhwb/view?usp=sharing" target="blank">
+                                        Download CV
+                                        <i class="fas fa-greater-than ml-2"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section style="height: 100vh" id="services">
+                <div class="w-3/5 h-full m-auto">
+                    <div class="flex flex-col items-center space-y-3 pt-20">
+                        <h1 class="text-5xl font-semibold text-gray-800">
+                            Services
+                        </h1>
+                        <h3 class="text-xl font-semibold text-gray-400">
+                            What i offer
+                        </h3>
+                    </div>
+                    <div class="h-3/6 grid grid-cols-3 gap-6 mt-20">
+                        <div
+                            class="
+                                flex flex-col
+                                justify-center
+                                border-2
+                                shadow-md
+                                space-y-6
+                                px-10
+                                pt-16
+                            "
+                        >
+                            <i
+                                class="
+                                    text-green-400 text-3xl
+                                    far
+                                    fa-window-restore
+                                "
+                            ></i>
+                            <h3 class="text-xl font-bold">
+                                Ui/Ux <br />
+                                Designer
+                            </h3>
+                            <div>
+                                <button
+                                    id="ui" 
+                                    class="view-more text-green-400 text-md font-medium"
+                                    >View More
+                                    <i class="fas fa-arrow-right ml-2"></i
+                                ></button>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                flex flex-col
+                                justify-center
+                                border-2
+                                shadow-md
+                                space-y-6
+                                px-10
+                                pt-16
+                            "
+                        >
+                            <i
+                                class="text-green-400 text-3xl far fas fa-code"
+                            ></i>
+                            <h3 class="text-xl font-bold">
+                                Frontend <br />
+                                Developer
+                            </h3>
+                            <div>
+                                <button
+                                    id="fe"  
+                                    class="view-more text-green-400 text-md font-medium"
+                                    >View More
+                                    <i class="fas fa-arrow-right ml-2"></i
+                                ></button>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                flex flex-col
+                                justify-center
+                                border-2
+                                shadow-md
+                                space-y-6
+                                px-10
+                                pt-16
+                            "
+                        >
+                            <i
+                                class="
+                                    text-green-400 text-3xl
+                                    fas
+                                    fa-pencil-alt
+                                "
+                            ></i>
+                            <h3 class="text-xl font-bold">
+                                Backend <br />
+                                Developer
+                            </h3>
+                            <div>
+                                <button
+                                    id="be"  
+                                    class="view-more text-green-400 text-md font-medium"
+                                    >View More
+                                    <i class="fas fa-arrow-right ml-2"></i
+                                ></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section style="height: 100vh" id="portfolio">
+                <div class="w-4/5 h-full m-auto z-0">
+                    <div class="flex flex-col items-center space-y-3 pt-20">
+                        <h1 class="text-5xl font-semibold text-gray-800">
+                            Portfolio
+                        </h1>
+                        <h3 class="text-xl font-semibold text-gray-400">
+                            My recent work
+                        </h3>
+                    </div>
+                    <!-- Slider main container -->
+                    <div class="swiper h-3/5 w-4/5">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide grid grid-cols-2">
+                                <div class="flex justify-center items-center">
+                                    <div
+                                        class="
+                                            h-3/5
+                                            w-3/5
+                                            bg-green-400
+                                            rounded-xl
+                                        "
+                                    >
+                                    <img src="./delicious.jfif" alt="" class="rounded-xl shadow-md">
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4/5 space-y-4">
+                                        <h3 class="text-2xl font-bold">
+                                            Delicious
+                                        </h3>
+                                        <p class="text-lg text-gray-400">
+                                            This website works like a recipe books with extra features like searching 
+                                            and filtering. I make this website using Laravel framework and template 
+                                            from themewagon for the UI.
+                                        </p>
+                                        <button
+                                            class="
+                                                inline-flex
+                                                items-center
+                                                px-2
+                                                py-3
+                                                bg-green-400
+                                                border border-transparent
+                                                rounded-md
+                                                text-md text-white
+                                                font-bold
+                                                capitalise
+                                                tracking-widest
+                                                hover:bg-green-700
+                                                active:bg-green-900
+                                                focus:outline-none
+                                                focus:border-green-700
+                                                focus:ring
+                                                ring-green-300
+                                                disabled:opacity-25
+                                                transition
+                                                ease-in-out
+                                                duration-150
+                                            "
+                                        >
+                                        <a href="https://github.com/ErkiKadhafi/delicious" target="blank">
+                                            Source Code
+                                            <i
+                                                class="fas fa-arrow-right ml-2"
+                                            ></i>
+                                        </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide grid grid-cols-2">
+                                <div class="flex justify-center items-center">
+                                    <div
+                                        class="
+                                            h-3/5
+                                            w-3/5
+                                            bg-green-400
+                                            rounded-xl
+                                        "
+                                    >
+                                    <img src="./sisop.jpg" class="h-full rounded-xl shadow-md" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4/5 space-y-4">
+                                        <h3 class="text-2xl font-bold">
+                                            Operating System Project
+                                        </h3>
+                                        <p class="text-lg text-gray-400">
+                                            The projects are about managing file system, built a server, and get a better understanding on how Linux OS works.
+                                        </p>
+                                        <button
+                                            class="
+                                                inline-flex
+                                                items-center
+                                                px-2
+                                                py-3
+                                                bg-green-400
+                                                border border-transparent
+                                                rounded-md
+                                                text-md text-white
+                                                font-bold
+                                                capitalise
+                                                tracking-widest
+                                                hover:bg-green-700
+                                                active:bg-green-900
+                                                focus:outline-none
+                                                focus:border-green-700
+                                                focus:ring
+                                                ring-green-300
+                                                disabled:opacity-25
+                                                transition
+                                                ease-in-out
+                                                duration-150
+                                            "
+                                        >
+                                        <a href="https://github.com/ErkiKadhafi/praktikum-sistem-operasi" target="blank">
+                                            Source Code
+                                            <i
+                                                class="fas fa-arrow-right ml-2"
+                                            ></i>
+                                        </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide grid grid-cols-2 pl-10">
+                                <div class="flex justify-center items-center">
+                                    <div
+                                        class="
+                                            h-3/5
+                                            w-4/5
+                                            bg-green-400
+                                            rounded-xl
+                                        "
+                                    >
+                                    <img src="./apsi.png" alt="" class="h-full shadow-md">
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4/5 space-y-4">
+                                        <h3 class="text-2xl font-bold">
+                                            Ui/Ux Project
+                                        </h3>
+                                        <p class="text-lg text-gray-400">
+                                            We make a better UI and UX for the users and also make new UI for admin page. 
+                                            In this project, I am in charge of admin page.
+                                        </p>
+                                        <button
+                                            class="
+                                                inline-flex
+                                                items-center
+                                                px-2
+                                                py-3
+                                                bg-green-400
+                                                border border-transparent
+                                                rounded-md
+                                                text-md text-white
+                                                font-bold
+                                                capitalise
+                                                tracking-widest
+                                                hover:bg-green-700
+                                                active:bg-green-900
+                                                focus:outline-none
+                                                focus:border-green-700
+                                                focus:ring
+                                                ring-green-300
+                                                disabled:opacity-25
+                                                transition
+                                                ease-in-out
+                                                duration-150
+                                            "
+                                        >
+                                        <a href="https://www.figma.com/proto/456kW10Iv8LmYdr02K7cOx/Mock-Mock-Up-Up?node-id=141%3A5154&starting-point-node-id=44%3A379" target="blank">
+                                            Source Code
+                                            <i
+                                                class="fas fa-arrow-right ml-2"
+                                            ></i>
+                                        </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section style="height: 100vh" id="contact">
+                <div class="w-4/5 h-full m-auto">
+                    <div class="flex flex-col items-center space-y-3 pt-20">
+                        <h1 class="text-5xl font-semibold text-gray-800">
+                            Contact Me
+                        </h1>
+                        <h3 class="text-xl font-semibold text-gray-400">
+                            Get in touch
+                        </h3>
+                    </div>
+                    <div class="grid grid-cols-12 w-4/5 m-auto mt-8">
+                        <div class="col-span-5 space-y-6">
+                            <div class="flex items-center p-2 space-x-4">
+                                <i
+                                    class="
+                                        fas
+                                        fa-phone-alt
+                                        text-2xl text-green-400
+                                    "
+                                ></i>
+                                <div>
+                                    <h2 class="text-xl font-semibold">
+                                        Call Me
+                                    </h2>
+                                    <h3 class="text-md text-gray-400">
+                                        081259781975
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-2 space-x-4">
+                                <i
+                                    class="
+                                        fas
+                                        fa-envelope
+                                        text-2xl text-green-400
+                                    "
+                                ></i>
+                                <div>
+                                    <h2 class="text-xl font-semibold">Email</h2>
+                                    <h3 class="text-md text-gray-400">
+                                        erki.qaedhafi@gmail.com
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-7">
+                            <form action="https://formspree.io/f/mayadddy" method="POST">
+                                <div class="space-y-6">
+                                    <div class="grid grid-cols-2 gap-x-4">
+                                        <div class="flex flex-col space-y-2">
+                                            <label
+                                                for="name"
+                                                class="text-bold font-semibold"
+                                                >Name</label
+                                            >
+                                            <input
+                                                class="
+                                                    border border-green-100
+                                                    bg-green-50
+                                                    py-4
+                                                    px-3
+                                                    rounded-sm
+                                                    focus:ring-2
+                                                    focus:outline-none
+                                                    focus:ring-green-400
+                                                    focus:border-green-400
+                                                    transition
+                                                    duration-200
+                                                "
+                                                type="text"
+                                                id="name"
+                                                name="name"
+                                                placeholder="Michael Alexander"
+                                            />
+                                        </div>
+                                        <div class="flex flex-col space-y-2">
+                                            <label
+                                                for="email"
+                                                class="text-bold font-semibold"
+                                                >Email</label
+                                            >
+                                            <input
+                                                class="
+                                                    border border-green-100
+                                                    bg-green-50
+                                                    py-4
+                                                    px-3
+                                                    rounded-sm
+                                                    focus:ring-2
+                                                    focus:outline-none
+                                                    focus:ring-green-400
+                                                    focus:border-green-400
+                                                    transition
+                                                    duration-200
+                                                "
+                                                type="text"
+                                                id="email"
+                                                name="email"
+                                                placeholder="michael.alexander@gmail.com"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col space-y-2">
+                                        <label
+                                            for="subject"
+                                            class="text-bold font-semibold"
+                                            >Subject</label
+                                        >
+                                        <input
+                                            class="
+                                                w-full
+                                                border border-green-100
+                                                bg-green-50
+                                                py-4
+                                                px-3
+                                                rounded-sm
+                                                focus:ring-2
+                                                focus:outline-none
+                                                focus:ring-green-400
+                                                focus:border-green-400
+                                                transition
+                                                duration-200
+                                            "
+                                            type="text"
+                                            id="subject"
+                                            name="subject"
+                                            placeholder="New Project Name"
+                                        />
+                                    </div>
+                                    <div class="flex flex-col space-y-2">
+                                        <label
+                                            for="message"
+                                            class="text-bold font-semibold"
+                                            >Message</label
+                                        >
+                                        <textarea
+                                            class="
+                                                form-textarea
+                                                w-full
+                                                border-green-100
+                                                bg-green-50
+                                                py-4
+                                                px-3
+                                                resize-none
+                                                rounded-md
+                                                border
+                                                focus:ring-2
+                                                focus:outline-none
+                                                focus:ring-green-400
+                                                focus:border-green-400
+                                                transition
+                                                duration-200
+                                            "
+                                            name="message"
+                                            id="message"
+                                            cols="30"
+                                            rows="4"
+                                        ></textarea>
+                                    </div>
+                                    <div>
+                                        <button
+                                            type="submit"
+                                            class="
+                                                inline-flex
+                                                items-center
+                                                px-2
+                                                py-3
+                                                bg-green-400
+                                                border border-transparent
+                                                rounded-md
+                                                text-md text-white
+                                                font-bold
+                                                capitalise
+                                                tracking-widest
+                                                hover:bg-green-700
+                                                active:bg-green-900
+                                                focus:outline-none
+                                                focus:border-green-700
+                                                focus:ring
+                                                ring-green-300
+                                                disabled:opacity-25
+                                                transition
+                                                ease-in-out
+                                                duration-150
+                                            "
+                                        >
+                                            Send message
+                                            <i
+                                                class="fas fa-greater-than ml-2"
+                                            ></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="popup popup-ui fixed bg-gray-500 opacity-50 h-full w-full top-0 z-20 flex justify-center items-center hidden"></div>
+            <div class="popup popup-ui bg-white fixed top-1/2 left-1/2 z-30 transform -translate-x-1/2 -translate-y-1/2 py-6 px-10 rounded-xl space-y-6 hidden">
+                    <div class="flex justify-between border-b">
+                        <h1 class="text-2xl">Ui/Ux <br> Designer</h1>
+                        <i id="popup-ui" class="fas fa-times text-2xl text-gray-400 cursor-pointer close-btn"></i>
+                    </div>
+                    <div class="">
+                        <ul class="space-y-3">
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Develop user interface</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Web page developement</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Create ux element interactions</p></li>
+                        </ul>
+                    </div>
+            </div>
+            
+            <div class="popup popup-fe fixed bg-gray-500 opacity-50 h-full w-full top-0 z-20 flex justify-center items-center hidden"></div>
+            <div class="popup popup-fe bg-white fixed top-1/2 left-1/2 z-30 transform -translate-x-1/2 -translate-y-1/2 py-6 px-10 rounded-xl space-y-6 hidden">
+                    <div class="flex justify-between border-b">
+                        <h1 class="text-2xl">Frontend <br> Developer</h1>
+                        <i id="popup-fe" class="fas fa-times text-2xl text-gray-400 cursor-pointer close-btn"></i>
+                    </div>
+                    <div class="">
+                        <ul class="space-y-3">
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Optimizing the user experience</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Implementing design on mobile websites.</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Creating tools that improve site interaction regardless of the browser</p></li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="popup popup-be fixed bg-gray-500 opacity-50 h-full w-full top-0 z-20 flex justify-center items-center hidden"></div>
+            <div class="popup popup-be bg-white fixed top-1/2 left-1/2 z-30 transform -translate-x-1/2 -translate-y-1/2 py-6 px-10 rounded-xl space-y-6 hidden">
+                    <div class="flex justify-between border-b">
+                        <h1 class="text-2xl">Backend <br> Developer</h1>
+                        <i id="popup-be" class="fas fa-times text-2xl text-gray-400 cursor-pointer close-btn"></i>
+                    </div>
+                    <div class="">
+                        <ul class="space-y-3">
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Building and maintaining web applications</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Assessing the efficiency and speed of current applications</p></li>
+                            <li class="text-xl"><p class="text-gray-400"><i class="text-indigo-200 far fa-check-circle"></i> Managing hosting environments</p></li>
+                        </ul>
+                    </div>
+            </div>
+        </main>
+        <footer style="height: 30vh" class="bg-green-400">
+            <div class="w-3/5 h-full m-auto text-white pt-10">
+                <div class="grid grid-cols-8 h-4/5">
+                    <div class="flex flex-col col-span-2 space-y-3">
+                        <h1 class="text-4xl font-bold">Erki</h1>
+                        <p class="text-lg">Software Developer</p>
+                    </div>
+                    <div class="col-span-4 ">
+                        <ul class="flex justify-around">
+                            <li><a href="#services" class="text-lg font-semibold hover:text-gray-200">Services</a></li>
+                            <li><a href="#portfolio" class="text-lg font-semibold hover:text-gray-200">Portfolio</a></li>
+                            <li><a href="#contact" class="text-lg font-semibold hover:text-gray-200">Contact me</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 pt-1">
+                        <ul class="flex justify-around">
+                            <li>
+                                <a target="blank" href="https://www.linkedin.com/in/erkikadhafi/"><i class="text-xl hover:text-gray-200 fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a target="blank" href="https://www.instagram.com/erki_kadhafi/"><i class="text-xl hover:text-gray-200 fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a target="blank" href="https://twitter.com/ErkiKadhafi_"><i class="text-xl hover:text-gray-200 fab fa-twitter"></i></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex justify-center text-gray-500">
+                    &copy Bedimcode. All right reserved
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
